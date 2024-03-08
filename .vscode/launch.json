@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RestfulApplication",
+            "request": "launch",
+            "mainClass": "com.webservices.restful.RestfulApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-RestfulApplication<restful>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

@@ -14,7 +14,7 @@ public class UserDaoService {
 
     private static List<User> users = new ArrayList<>();
 
-    private static int userCounter = 0;
+    private static int userCounter = 1;
 
     static{
         users.add(new User(userCounter++,"Adam",LocalDate.now().minusYears(30)));
