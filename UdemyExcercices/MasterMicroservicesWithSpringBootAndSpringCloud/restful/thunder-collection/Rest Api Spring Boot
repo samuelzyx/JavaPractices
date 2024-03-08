@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Rest Api Spring Boot",
-    "dateExported": "2024-03-08T01:09:53.044Z",
+    "dateExported": "2024-03-08T18:33:09.416Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,14 +14,15 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-03-08T01:05:43.290Z",
-            "modified": "2024-03-08T01:06:58.176Z",
+            "modified": "2024-03-08T01:22:54.375Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\": \"Sam\",\n  \"birthDate\": \"1990-03-17\"\n}",
+                "raw": "{\n  \"name\": \"Perla\",\n  \"birthDate\": \"1991-09-16\"\n}",
                 "form": []
             },
+            "reqType": "post",
             "tests": []
         },
         {
@@ -43,11 +44,26 @@
             "colId": "389c0116-0f0e-4233-a259-35c5e34d40c8",
             "containerId": "",
             "name": "Get User from ID",
-            "url": "http://127.0.0.1:8080/users/1",
+            "url": "http://127.0.0.1:8080/users/5",
             "method": "GET",
             "sortNum": 30000,
             "created": "2024-03-08T01:06:10.933Z",
-            "modified": "2024-03-08T01:09:39.955Z",
+            "modified": "2024-03-08T01:27:53.207Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "32430259-8f37-43a9-a220-f6ab7ad138bc",
+            "colId": "389c0116-0f0e-4233-a259-35c5e34d40c8",
+            "containerId": "",
+            "name": "Delete User from ID",
+            "url": "http://127.0.0.1:8080/users/2",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-08T18:30:27.178Z",
+            "modified": "2024-03-08T18:31:21.806Z",
             "headers": [],
             "params": [],
             "reqType": "get",
