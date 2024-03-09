@@ -4,6 +4,13 @@
             "type": "java",
             "name": "RestfulApplication",
             "request": "launch",
+            "mainClass": "RestfulApplication",
+            "projectName": "restful"
+        },
+        {
+            "type": "java",
+            "name": "RestfulApplication",
+            "request": "launch",
             "mainClass": "com.webservices.restful.RestfulApplication"
         },
         {
