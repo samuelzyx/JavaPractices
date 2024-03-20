@@ -21,8 +21,11 @@ Stream api
 Javascript core
 
 What is a lambda expresion and gives a example of use?
-Lambda expressions are methods without access name, without datatype return or receive params datatype gives the opportunity to use program functional, that are more readeable, clean
-Yes we can implement a lambda to compare two elements inside of the method 
+Lambda expressions are methods without access name, without datatype return or receive params datatype and also gives the opportunity to use program functional, that are more readeable, clean
+
+And yes like a example:
+
+We can implement a lambda expresion to compare two elements inside of the method 
 (a,b){
     if(a>b){
         return a;
@@ -31,17 +34,17 @@ Yes we can implement a lambda to compare two elements inside of the method
 }
 
 What is stream api and how is used?
-Stream api is a library used for the lambda expresions, that implement methods that helps us with handle of collections, like reverse(), sort(), etc, we need to create a instance of the StreamApi class and use the methods that we want
+Stream api is a library used for the lambda expresions, that implement methods that helps us with handle collections, like reverse(), sort(), etc, we need to create a instance of the StreamApi class and use the methods that we want
 
-Which is the porpuse of the functional interface and wich anotation are used to mark as functional interface?
-The porpuse are to only have one abstract method
-@FunctionalInteraface
+Which is the porpuse of the functional interface and wich annotation are used to mark as functional interface?
+The porpuse are to only have one abstract method and it annotation is @FunctionalInteraface
 
 Write a code to use expresion lambda to sort list of string 
 
 // Sort list using lambda expression
-Collections.sort(lista, (s1, s2) -> s1.compareTo(s2));
+Collections.sort(list, (s1, s2) -> s1.compareTo(s2));
 
+with all code
 
 import java.util.ArrayList;
 import java.util.Collections;
