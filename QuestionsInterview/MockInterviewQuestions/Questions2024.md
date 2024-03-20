@@ -64,15 +64,19 @@ Inmutability in Java refers to the concept of creating objects whose internal st
 1. Thread Safety:
 
 Immutable objects are inherently thread-safe. Since their state cannot be changed, there's no need for synchronization mechanisms like synchronized keywords or locks to prevent data corruption when accessed by multiple threads concurrently. This simplifies concurrent programming and reduces the risk of thread-related errors.
+
 2. Predictability:
 
 Immutable objects exhibit predictable behavior. Once created, you can trust their state to remain consistent throughout the program's execution. This makes reasoning about program logic and debugging easier.
+
 3. Caching and Sharing:
 
 Immutable objects are ideal candidates for caching. Since their content doesn't change, you can safely store them in caches without worrying about stale data. Additionally, immutable objects can be freely shared between different parts of your program without the risk of accidental modification.
+
 4. Easier Testing:
 
 Testing code that interacts with immutable objects becomes simpler. You can create test cases with known object states and verify the expected behavior without concerns about external modifications.
+
 5. Functional Programming Principles:
 
 Immutability aligns well with functional programming principles, which emphasize creating pure functions with no side effects. Immutable objects promote a more functional style in your Java code, leading to potentially cleaner and more concise code.
