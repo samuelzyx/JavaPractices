@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "solution",
+            "request": "launch",
+            "mainClass": "solution"
+        },
+        {
+            "type": "java",
             "name": "RestfulApplication",
             "request": "launch",
             "mainClass": "RestfulApplication",

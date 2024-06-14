@@ -68,7 +68,7 @@ From my perspective there is not a best sorting algoritm itselve, because all th
 Difference beetween System.out System.err and System.in?
 
 - System.out is used to print messages in terminal
-- System.out is used to print error messages in terminal
+- System.err is used to print error messages in terminal
 - System.in is used to capture entry values from the keyboard
 
 Syntax on how to create a linked list and a vector in Java?
@@ -98,6 +98,8 @@ How to create a Hashmap?
 
 - HashMap<Datatype><Datatype> map = new HashMap<>();
 
+Difference between Inheritance and Polyformism?
+Inheritance is commonly used to pass the functionality of methods to another class by making an extension of its own methods, and polyformism is related to adding dynamic functionality to methods which means that depending on the parameters received in the method it could handle different logic with the same name but with the difference that other methods receive other parameters or data types.
 
 Can you tell me what are you greatest strength and weaknesses?
 
